@@ -1,0 +1,1355 @@
+[2025-05-05 22:38:29] - === Starting Report Generation ===
+[2025-05-05 22:38:29] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-05 22:38:29] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-05.pdf
+[2025-05-05 22:38:29] - Starting the rendering process...
+[2025-05-05 22:38:29] - ERROR:  there is no package called 'lubridate'
+[2025-05-05 22:51:40] - === Starting Report Generation ===
+[2025-05-05 22:51:40] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-05 22:51:40] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-05.pdf
+[2025-05-05 22:51:40] - Starting the rendering process...
+[2025-05-05 22:51:42] - ERROR:  there is no package called 'reshape2'
+[2025-05-05 22:55:04] - === Starting Report Generation ===
+[2025-05-05 22:55:04] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-05 22:55:04] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-05.pdf
+[2025-05-05 22:55:04] - Starting the rendering process...
+[2025-05-05 22:55:58] - ERROR:  LaTeX failed to compile /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-05.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips. See GHG_SOIL_REPORT_2025-05-05.log for more info.
+[2025-05-05 23:01:10] - === Starting Report Generation ===
+[2025-05-05 23:01:10] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-05 23:01:10] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-05.pdf
+[2025-05-05 23:01:10] - Starting the rendering process...
+[2025-05-05 23:01:28] - ERROR:  LaTeX failed to compile /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-05.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips. See GHG_SOIL_REPORT_2025-05-05.log for more info.
+[2025-05-05 23:02:35] - === Starting Report Generation ===
+[2025-05-05 23:02:35] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-05 23:02:35] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-05.pdf
+[2025-05-05 23:02:35] - Starting the rendering process...
+[2025-05-05 23:02:55] - ERROR:  LaTeX failed to compile /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-05.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips. See GHG_SOIL_REPORT_2025-05-05.log for more info.
+[2025-05-05 23:06:24] - === Starting Report Generation ===
+[2025-05-05 23:06:24] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-05 23:06:24] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-05.pdf
+[2025-05-05 23:06:24] - Starting the rendering process...
+[2025-05-05 23:06:41] - ERROR:  pandoc document conversion failed with error 6
+[2025-05-05 23:08:32] - === Starting Report Generation ===
+[2025-05-05 23:08:32] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-05 23:08:32] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-05.pdf
+[2025-05-05 23:08:32] - Starting the rendering process...
+[2025-05-05 23:08:50] - ERROR:  LaTeX failed to compile /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-05.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips. See GHG_SOIL_REPORT_2025-05-05.log for more info.
+[2025-05-05 23:29:01] - === Starting Report Generation ===
+[2025-05-05 23:29:01] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-05 23:29:01] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-05.pdf
+[2025-05-05 23:29:01] - Starting the rendering process...
+[2025-05-05 23:29:21] - ERROR:  LaTeX failed to compile /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-05.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips. See GHG_SOIL_REPORT_2025-05-05.log for more info.
+[2025-05-07 11:55:23] - === Starting Report Generation ===
+[2025-05-07 11:55:23] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 11:55:23] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 11:55:23] - Starting the rendering process...
+[2025-05-07 11:55:23] - ERROR:  Duplicate map key: 'date'
+[2025-05-07 12:11:18] - === Starting Report Generation ===
+[2025-05-07 12:11:19] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 12:11:19] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 12:11:19] - Starting the rendering process...
+[2025-05-07 12:11:19] - ERROR:  Duplicate map key: 'date'
+[2025-05-07 12:11:24] - === Starting Report Generation ===
+[2025-05-07 12:11:24] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 12:11:24] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 12:11:24] - Starting the rendering process...
+[2025-05-07 12:11:24] - ERROR:  Duplicate map key: 'date'
+[2025-05-07 12:14:03] - === Starting Report Generation ===
+[2025-05-07 12:14:03] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 12:14:03] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 12:14:03] - Starting the rendering process...
+[2025-05-07 12:14:03] - ERROR:  Duplicate map key: 'date'
+[2025-05-07 12:14:58] - === Starting Report Generation ===
+[2025-05-07 12:14:58] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 12:14:58] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 12:14:58] - Starting the rendering process...
+[2025-05-07 12:14:58] - ERROR:  Duplicate map key: 'date'
+[2025-05-07 12:15:10] - === Starting Report Generation ===
+[2025-05-07 12:15:10] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 12:15:10] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 12:15:10] - Starting the rendering process...
+[2025-05-07 12:15:10] - ERROR:  Duplicate map key: 'date'
+[2025-05-07 12:16:36] - === Starting Report Generation ===
+[2025-05-07 12:16:36] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 12:16:36] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 12:16:36] - Starting the rendering process...
+[2025-05-07 12:16:36] - ERROR:  Duplicate map key: 'date'
+[2025-05-07 12:35:36] - === Starting Report Generation ===
+[2025-05-07 12:35:36] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 12:35:36] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 12:35:36] - Starting the rendering process...
+[2025-05-07 12:36:04] - ERROR:  pandoc document conversion failed with error 99
+[2025-05-07 12:36:58] - === Starting Report Generation ===
+[2025-05-07 12:36:58] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 12:36:58] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 12:36:58] - Starting the rendering process...
+[2025-05-07 12:37:19] - ERROR:  LaTeX failed to compile /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips. See GHG_SOIL_REPORT_2025-05-07.log for more info.
+[2025-05-07 12:42:02] - === Starting Report Generation ===
+[2025-05-07 12:42:02] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 12:42:02] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 12:42:02] - Starting the rendering process...
+[2025-05-07 12:42:31] - ERROR:  LaTeX failed to compile /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips. See GHG_SOIL_REPORT_2025-05-07.log for more info.
+[2025-05-07 12:45:45] - === Starting Report Generation ===
+[2025-05-07 12:45:45] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 12:45:45] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 12:45:45] - Starting the rendering process...
+[2025-05-07 12:46:09] - ERROR:  LaTeX failed to compile /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips. See GHG_SOIL_REPORT_2025-05-07.log for more info.
+[2025-05-07 12:49:24] - === Starting Report Generation ===
+[2025-05-07 12:49:24] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 12:49:24] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 12:49:24] - Starting the rendering process...
+[2025-05-07 12:49:41] - ERROR:  LaTeX failed to compile /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips. See GHG_SOIL_REPORT_2025-05-07.log for more info.
+[2025-05-07 12:50:38] - === Starting Report Generation ===
+[2025-05-07 12:50:38] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 12:50:38] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 12:50:38] - Starting the rendering process...
+[2025-05-07 12:50:56] - ERROR:  LaTeX failed to compile /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips. See GHG_SOIL_REPORT_2025-05-07.log for more info.
+[2025-05-07 13:46:55] - === Starting Report Generation ===
+[2025-05-07 13:46:55] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 13:46:55] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 13:46:55] - Starting the rendering process...
+[2025-05-07 13:47:14] - === Report Rendered Successfully ===
+[2025-05-07 13:47:14] - Email sent successfully.
+[2025-05-07 13:47:14] - === Report Generation Completed ===
+[2025-05-07 13:56:36] - === Starting Report Generation ===
+[2025-05-07 13:56:36] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 13:56:36] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 13:56:36] - Starting the rendering process...
+[2025-05-07 13:56:55] - === Report Rendered Successfully ===
+[2025-05-07 13:56:55] - Email sent successfully.
+[2025-05-07 13:56:55] - === Report Generation Completed ===
+[2025-05-07 13:59:40] - === Starting Report Generation ===
+[2025-05-07 13:59:40] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 13:59:40] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 13:59:40] - Starting the rendering process...
+[2025-05-07 13:59:59] - === Report Rendered Successfully ===
+[2025-05-07 13:59:59] - Email with attachment sent successfully.
+[2025-05-07 13:59:59] - === Report Generation Completed ===
+[2025-05-07 14:02:37] - === Starting Report Generation ===
+[2025-05-07 14:02:37] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 14:02:37] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 14:02:37] - Starting the rendering process...
+[2025-05-07 14:02:55] - === Report Rendered Successfully ===
+[2025-05-07 14:02:55] - File exists, proceeding with sending the email.
+[2025-05-07 14:02:55] - Email sent successfully.
+[2025-05-07 14:02:55] - === Report Generation Completed ===
+[2025-05-07 14:10:47] - === Starting Report Generation ===
+[2025-05-07 14:10:47] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 14:10:47] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 14:10:47] - Starting the rendering process...
+[2025-05-07 14:11:06] - === Report Rendered Successfully ===
+[2025-05-07 14:11:06] - Checking existence of file: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 14:11:06] - File exists: TRUE
+[2025-05-07 14:11:06] - File exists, proceeding with sending the email.
+[2025-05-07 14:11:06] - Email sent successfully.
+[2025-05-07 14:11:06] - === Report Generation Completed ===
+[2025-05-07 14:11:06] - Checking existence of file: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 14:11:06] - File exists: TRUE
+[2025-05-07 14:15:55] - Starting the report generation
+[2025-05-07 14:15:56] - === Starting Report Generation ===
+[2025-05-07 14:15:56] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 14:15:56] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 14:15:56] - Starting the rendering process...
+[2025-05-07 14:16:14] - === Report Rendered Successfully ===
+[2025-05-07 14:16:14] - Checking existence of file: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 14:16:14] - File exists: TRUE
+[2025-05-07 14:16:14] - File exists, proceeding with sending the email.
+[2025-05-07 14:16:14] - Email sent successfully.
+[2025-05-07 14:16:14] - === Report Generation Completed ===
+[2025-05-07 14:16:14] - Checking existence of file: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 14:16:14] - File exists: TRUE
+[2025-05-07 14:16:14] - Report file exists, proceeding with email sending
+[2025-05-07 14:16:14] - Email sent successfully
+[2025-05-07 14:17:56] - Starting the report generation
+[2025-05-07 14:17:57] - === Starting Report Generation ===
+[2025-05-07 14:17:57] - RMD Path:  /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 14:17:57] - Output File:  /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 14:17:57] - Starting the rendering process...
+[2025-05-07 14:18:16] - === Report Rendered Successfully ===
+[2025-05-07 14:18:16] - Checking existence of file: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 14:18:16] - File exists: TRUE
+[2025-05-07 14:18:16] - File exists, proceeding with sending the email.
+[2025-05-07 14:18:16] - Email sent successfully.
+[2025-05-07 14:18:16] - === Report Generation Completed ===
+[2025-05-07 14:18:16] - Checking existence of file: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 14:18:16] - File exists: TRUE
+[2025-05-07 14:18:16] - Checking if report file exists: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 14:18:16] - Report file exists, proceeding with email sending
+[2025-05-07 14:18:16] - Email sent successfully
+[2025-05-07 14:23:30] - === Starting Report Generation ===
+[2025-05-07 14:23:30] - RMD Path: /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 14:23:30] - Output File: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/33                       
+2/33 [setup]               
+3/33                       
+4/33 [load-data]           
+5/33                       
+6/33 [check-invalid]       
+7/33                       
+8/33 [Nan-values monthly]  
+9/33                       
+10/33 [t test]              
+11/33                       
+12/33 [sensor-failures]     
+[2025-05-07 14:23:53] - === Starting Report Generation ===
+[2025-05-07 14:23:53] - RMD Path: /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-07 14:23:53] - Output File: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/33                       
+2/33 [setup]               
+3/33                       
+4/33 [load-data]           
+5/33                       
+6/33 [check-invalid]       
+7/33                       
+8/33 [Nan-values monthly]  
+9/33                       
+10/33 [t test]              
+11/33                       
+12/33 [sensor-failures]     
+13/33                       
+14/33 [corelation matrix]   
+15/33                       
+16/33 [categorize-gaps]     
+17/33                       
+18/33 [summary]             
+19/33                       
+20/33 [monthly-trends]      
+21/33                       
+22/33 [time-series]         
+23/33                       
+24/33 [power-outage]        
+25/33                       
+26/33 [r2 analysis]         
+27/33                       
+28/33 [cv analysis]         
+29/33                       
+30/33 [flux-quality-control]
+31/33                       
+32/33 [flux anlysis monthly]
+33/33                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmpU9lUdC/rmarkdown-str3e1a57106d44.html 
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 14:24:12] - Verifying PDF file: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+[2025-05-07 14:24:12] - PDF verification passed
+[2025-05-07 14:24:12] - Sending email to asritha@udel.edu
+[2025-05-07 14:24:12] - Email sent successfully
+[2025-05-07 14:24:12] - === Report Generation Completed Successfully ===
+[2025-05-07 14:26:38] - === Starting report generation ===
+[2025-05-07 14:26:39] - Rendering to: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/33                       
+2/33 [setup]               
+3/33                       
+4/33 [load-data]           
+5/33                       
+6/33 [check-invalid]       
+7/33                       
+8/33 [Nan-values monthly]  
+9/33                       
+10/33 [t test]              
+11/33                       
+12/33 [sensor-failures]     
+
+
+Quitting from GHG_SOIL_REPORT.Rmd:216-277 [sensor-failures]
+Execution halted
+[2025-05-07 14:26:50] - Report generated successfully
+[2025-05-07 14:26:50] - Email notification sent
+[2025-05-07 14:26:50] - === Process completed ===
+[2025-05-07 14:38:22] - === STARTING REPORT GENERATION ===
+[2025-05-07 14:38:22] - Loading environment...
+[2025-05-07 14:38:22] - System PATH: /opt/shared/r/4.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/home/3735/software/pandoc-2.19.2/bin:/opt/shared/r/4.1.3/bin:/opt/shared/slurm/bin:/home/3735/software/pandoc-2.19.2/bin:/opt/shared/r/4.1.3/bin:/opt/shared/slurm/bin:/home/3735/software/pandoc-2.19.2/bin:/opt/shared/r/4.1.3/bin:/opt/shared/texlive/2023/bin:/opt/shared/gcc/11.2.0/bin:/opt/shared/r/4.1.1/bin:/opt/shared/gcc/10.1.0/bin:/opt/shared/slurm/bin:/home/3735/software/pandoc-2.19.2/bin:/opt/shared/r/4.1.3/bin:/opt/shared/valet/2.1/bin/bash:/opt/shared/valet/2.1/bin:/opt/shared/slurm/add-ons/bin:/opt/shared/slurm/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/3735/.local/bin:/home/3735/bin:/home/3735/.local/bin:/home/3735/bin:/home/3735/.local/bin:/home/3735/bin
+[2025-05-07 14:38:22] - Using R: 
+[2025-05-07 14:38:23] - Rendering to: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/33                       
+2/33 [setup]               
+3/33                       
+4/33 [load-data]           
+5/33                       
+6/33 [check-invalid]       
+
+
+Quitting from GHG_SOIL_REPORT.Rmd:108-159 [check-invalid]
+Execution halted
+[2025-05-07 14:38:29] - SUCCESS: Generated report (17K)
+[2025-05-07 14:38:29] - Notification email sent
+[2025-05-07 14:38:29] - === COMPLETED SUCCESSFULLY ===
+[2025-05-07 14:40:23] - === STARTING REPORT GENERATION ===
+[2025-05-07 14:40:23] - Loading environment...
+[2025-05-07 14:40:23] - System PATH: /opt/shared/r/4.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/home/3735/software/pandoc-2.19.2/bin:/opt/shared/r/4.1.3/bin:/opt/shared/slurm/bin:/home/3735/software/pandoc-2.19.2/bin:/opt/shared/r/4.1.3/bin:/opt/shared/slurm/bin:/home/3735/software/pandoc-2.19.2/bin:/opt/shared/r/4.1.3/bin:/opt/shared/texlive/2023/bin:/opt/shared/gcc/11.2.0/bin:/opt/shared/r/4.1.1/bin:/opt/shared/gcc/10.1.0/bin:/opt/shared/slurm/bin:/home/3735/software/pandoc-2.19.2/bin:/opt/shared/r/4.1.3/bin:/opt/shared/valet/2.1/bin/bash:/opt/shared/valet/2.1/bin:/opt/shared/slurm/add-ons/bin:/opt/shared/slurm/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/3735/.local/bin:/home/3735/bin:/home/3735/.local/bin:/home/3735/bin:/home/3735/.local/bin:/home/3735/bin
+[2025-05-07 14:40:23] - Using R: 
+[2025-05-07 14:40:24] - Rendering to: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/33                       
+2/33 [setup]               
+3/33                       
+4/33 [load-data]           
+
+
+Quitting from GHG_SOIL_REPORT.Rmd:46-106 [load-data]
+Execution halted
+[2025-05-07 14:40:27] - SUCCESS: Generated report (17K)
+[2025-05-07 14:40:27] - Notification email sent
+[2025-05-07 14:40:27] - === COMPLETED SUCCESSFULLY ===
+[2025-05-07 14:41:47] - === STARTING REPORT GENERATION ===
+[2025-05-07 14:41:47] - Using R version: 
+[2025-05-07 14:41:47] - Rendering to: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/33                       
+2/33 [setup]               
+3/33                       
+4/33 [load-data]           
+5/33                       
+6/33 [check-invalid]       
+
+
+Quitting from GHG_SOIL_REPORT.Rmd:108-159 [check-invalid]
+Execution halted
+[2025-05-07 14:41:53] - SUCCESS: Report generated (17K)
+[2025-05-07 14:41:53] - Email notification sent
+[2025-05-07 14:44:02] - === STARTING REPORT GENERATION ===
+[2025-05-07 14:44:02] - Using R version: 
+[2025-05-07 14:44:02] - Rendering to: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-07.pdf
+/opt/shared/r/4.1.1/lib64/R/bin/exec/R: error while loading shared libraries: libgfortran.so.5: cannot open shared object file: No such file or directory
+[2025-05-07 14:44:02] - SUCCESS: Report generated (17K)
+[2025-05-07 14:44:02] - Email notification sent
+[2025-05-08 08:00:03] - === STARTING REPORT GENERATION ===
+[2025-05-08 08:00:03] - Using R version: 
+[2025-05-08 08:00:03] - Rendering to: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-08.pdf
+/opt/shared/r/4.1.1/lib64/R/bin/exec/R: error while loading shared libraries: libgfortran.so.5: cannot open shared object file: No such file or directory
+[2025-05-08 08:00:03] - ERROR: Report generation failed
+[2025-05-08 14:15:17] - === STARTING REPORT GENERATION ===
+[2025-05-08 14:15:17] - Using R version: 
+[2025-05-08 14:15:17] - Rendering to: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-08.pdf
+/opt/shared/r/4.1.1/lib64/R/bin/exec/R: error while loading shared libraries: libgfortran.so.5: cannot open shared object file: No such file or directory
+[2025-05-08 14:15:17] - ERROR: Report generation failed
+[2025-05-08 14:16:12] - === STARTING REPORT GENERATION ===
+[2025-05-08 14:16:12] - Using R version: 
+[2025-05-08 14:16:12] - Rendering to: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-08.pdf
+/opt/shared/r/4.1.1/lib64/R/bin/exec/R: error while loading shared libraries: libgfortran.so.5: cannot open shared object file: No such file or directory
+[2025-05-08 14:16:12] - ERROR: Report generation failed
+[2025-05-08 14:28:12] - === STARTING REPORT GENERATION ===
+[2025-05-08 14:28:12] - Using R version: 
+[2025-05-08 14:28:12] - Rendering to: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-08.pdf
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/home/3735/R/x86_64-pc-linux-gnu-library/4.1/fastmap/libs/fastmap.so':
+  /usr/lib64/libstdc++.so.6: version `CXXABI_1.3.9' not found (required by /home/3735/R/x86_64-pc-linux-gnu-library/4.1/fastmap/libs/fastmap.so)
+Calls: loadNamespace ... asNamespace -> loadNamespace -> library.dynam -> dyn.load
+Execution halted
+[2025-05-08 14:28:13] - ERROR: Report generation failed
+[2025-05-08 14:42:57] - === STARTING REPORT GENERATION ===
+[2025-05-08 14:42:58] - Using container: singularity-ce version 3.11.1
+[2025-05-08 14:42:58] - RMD path: /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-08 14:42:58] - Rendering to: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-08.pdf
+Error: unexpected symbol in:
+"      )
+      quit"
+Execution halted
+[2025-05-08 14:42:58] - ERROR: Report generation failed - Last 10 lines of log:
+[2025-05-08 14:28:13] - ERROR: Report generation failed
+[2025-05-08 14:42:57] - === STARTING REPORT GENERATION ===
+[2025-05-08 14:42:58] - Using container: singularity-ce version 3.11.1
+[2025-05-08 14:42:58] - RMD path: /lustre/darse/users/3735/ghgsoilproject/rmds/GHG_SOIL_REPORT.Rmd
+[2025-05-08 14:42:58] - Rendering to: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-08.pdf
+Error: unexpected symbol in:
+"      )
+      quit"
+Execution halted
+[2025-05-08 14:42:58] - ERROR: Report generation failed - Last 10 lines of log:
+[2025-05-08 14:45:03] - === STARTING REPORT GENERATION ===
+[2025-05-08 14:45:03] - System: Linux r0login1.localdomain.hpc.udel.edu 3.10.0-1127.19.1.el7.x86_64 #1 SMP Tue Aug 25 17:23:54 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+[2025-05-08 14:45:03] - Singularity: singularity-ce version 3.11.1
+[2025-05-08 14:45:03] - Rendering to: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-08.pdf
+Loading required package: rmarkdown
+Failed with error:  ‘(converted from warning) there is no package called ‘rmarkdown’’
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+Rendering failed: (converted from warning) 'lib = "/usr/local/lib/R/site-library"' is not writable
+[2025-05-08 14:45:04] - ERROR: Report generation failed
+[2025-05-08 14:45:04] - === LAST 10 LINES OF R OUTPUT ===
+[2025-05-08 14:45:03] - System: Linux r0login1.localdomain.hpc.udel.edu 3.10.0-1127.19.1.el7.x86_64 #1 SMP Tue Aug 25 17:23:54 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+[2025-05-08 14:45:03] - Singularity: singularity-ce version 3.11.1
+[2025-05-08 14:45:03] - Rendering to: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-08.pdf
+Loading required package: rmarkdown
+Failed with error:  ‘(converted from warning) there is no package called ‘rmarkdown’’
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+Rendering failed: (converted from warning) 'lib = "/usr/local/lib/R/site-library"' is not writable
+[2025-05-08 14:45:04] - ERROR: Report generation failed
+[2025-05-08 14:45:04] - === LAST 10 LINES OF R OUTPUT ===
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-08 16:53:25] - === STARTING REPORT GENERATION ===
+/opt/shared/r/4.1.3/lib64/R/bin/exec/R: error while loading shared libraries: libgfortran.so.5: cannot open shared object file: No such file or directory
+[2025-05-08 16:53:25] - ERROR: Report generation failed. Last 10 lines:
+Failed with error:  ‘(converted from warning) there is no package called ‘rmarkdown’’
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+Rendering failed: (converted from warning) 'lib = "/usr/local/lib/R/site-library"' is not writable
+[2025-05-08 14:45:04] - ERROR: Report generation failed
+[2025-05-08 14:45:04] - === LAST 10 LINES OF R OUTPUT ===
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-08 16:53:25] - === STARTING REPORT GENERATION ===
+/opt/shared/r/4.1.3/lib64/R/bin/exec/R: error while loading shared libraries: libgfortran.so.5: cannot open shared object file: No such file or directory
+[2025-05-08 16:53:25] - ERROR: Report generation failed. Last 10 lines:
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-08 16:53:38] - === STARTING REPORT GENERATION ===
+/opt/shared/r/4.1.3/lib64/R/bin/exec/R: error while loading shared libraries: libgfortran.so.5: cannot open shared object file: No such file or directory
+[2025-05-08 16:53:38] - ERROR: Report generation failed. Last 10 lines:
+[2025-05-08 14:45:04] - ERROR: Report generation failed
+[2025-05-08 14:45:04] - === LAST 10 LINES OF R OUTPUT ===
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-08 16:53:25] - === STARTING REPORT GENERATION ===
+/opt/shared/r/4.1.3/lib64/R/bin/exec/R: error while loading shared libraries: libgfortran.so.5: cannot open shared object file: No such file or directory
+[2025-05-08 16:53:25] - ERROR: Report generation failed. Last 10 lines:
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-08 16:53:38] - === STARTING REPORT GENERATION ===
+/opt/shared/r/4.1.3/lib64/R/bin/exec/R: error while loading shared libraries: libgfortran.so.5: cannot open shared object file: No such file or directory
+[2025-05-08 16:53:38] - ERROR: Report generation failed. Last 10 lines:
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-08 17:02:00] - === STARTING REPORT GENERATION ===
+/opt/shared/r/4.1.3/lib64/R/bin/exec/R: error while loading shared libraries: libgfortran.so.5: cannot open shared object file: No such file or directory
+[2025-05-08 17:02:00] - ERROR: Report generation failed. Last 10 lines:
+/opt/shared/r/4.1.3/lib64/R/bin/exec/R: error while loading shared libraries: libgfortran.so.5: cannot open shared object file: No such file or directory
+[2025-05-08 16:53:25] - ERROR: Report generation failed. Last 10 lines:
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-08 16:53:38] - === STARTING REPORT GENERATION ===
+/opt/shared/r/4.1.3/lib64/R/bin/exec/R: error while loading shared libraries: libgfortran.so.5: cannot open shared object file: No such file or directory
+[2025-05-08 16:53:38] - ERROR: Report generation failed. Last 10 lines:
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-08 17:02:00] - === STARTING REPORT GENERATION ===
+/opt/shared/r/4.1.3/lib64/R/bin/exec/R: error while loading shared libraries: libgfortran.so.5: cannot open shared object file: No such file or directory
+[2025-05-08 17:02:00] - ERROR: Report generation failed. Last 10 lines:
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-08 17:10:48] - === STARTING REPORT GENERATION ===
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/home/3735/R/x86_64-pc-linux-gnu-library/4.1/fastmap/libs/fastmap.so':
+  /usr/lib64/libstdc++.so.6: version `CXXABI_1.3.9' not found (required by /home/3735/R/x86_64-pc-linux-gnu-library/4.1/fastmap/libs/fastmap.so)
+Calls: loadNamespace ... asNamespace -> loadNamespace -> library.dynam -> dyn.load
+Execution halted
+[2025-05-08 17:10:49] - ERROR: Report generation failed. Last 10 lines:
+/opt/shared/r/4.1.3/lib64/R/bin/exec/R: error while loading shared libraries: libgfortran.so.5: cannot open shared object file: No such file or directory
+[2025-05-08 17:02:00] - ERROR: Report generation failed. Last 10 lines:
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-08 17:10:48] - === STARTING REPORT GENERATION ===
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/home/3735/R/x86_64-pc-linux-gnu-library/4.1/fastmap/libs/fastmap.so':
+  /usr/lib64/libstdc++.so.6: version `CXXABI_1.3.9' not found (required by /home/3735/R/x86_64-pc-linux-gnu-library/4.1/fastmap/libs/fastmap.so)
+Calls: loadNamespace ... asNamespace -> loadNamespace -> library.dynam -> dyn.load
+Execution halted
+[2025-05-08 17:10:49] - ERROR: Report generation failed. Last 10 lines:
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-08 17:16:24] - === STARTING REPORT GENERATION ===
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/home/3735/R/x86_64-pc-linux-gnu-library/4.1/fastmap/libs/fastmap.so':
+  /usr/lib64/libstdc++.so.6: version `CXXABI_1.3.9' not found (required by /home/3735/R/x86_64-pc-linux-gnu-library/4.1/fastmap/libs/fastmap.so)
+Calls: loadNamespace ... asNamespace -> loadNamespace -> library.dynam -> dyn.load
+Execution halted
+[2025-05-08 17:16:24] - ERROR: Report generation failed. Last 10 lines:
+Execution halted
+[2025-05-08 17:10:49] - ERROR: Report generation failed. Last 10 lines:
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-08 17:16:24] - === STARTING REPORT GENERATION ===
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/home/3735/R/x86_64-pc-linux-gnu-library/4.1/fastmap/libs/fastmap.so':
+  /usr/lib64/libstdc++.so.6: version `CXXABI_1.3.9' not found (required by /home/3735/R/x86_64-pc-linux-gnu-library/4.1/fastmap/libs/fastmap.so)
+Calls: loadNamespace ... asNamespace -> loadNamespace -> library.dynam -> dyn.load
+Execution halted
+[2025-05-08 17:16:24] - ERROR: Report generation failed. Last 10 lines:
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-08 17:23:33] - === STARTING REPORT GENERATION ===
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/home/3735/R/x86_64-pc-linux-gnu-library/4.1/fastmap/libs/fastmap.so':
+  /usr/lib64/libstdc++.so.6: version `CXXABI_1.3.9' not found (required by /home/3735/R/x86_64-pc-linux-gnu-library/4.1/fastmap/libs/fastmap.so)
+Calls: loadNamespace ... asNamespace -> loadNamespace -> library.dynam -> dyn.load
+Execution halted
+[2025-05-08 17:23:34] - ERROR: Report generation failed. Last 10 lines:
+Execution halted
+[2025-05-08 17:16:24] - ERROR: Report generation failed. Last 10 lines:
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-08 17:23:33] - === STARTING REPORT GENERATION ===
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/home/3735/R/x86_64-pc-linux-gnu-library/4.1/fastmap/libs/fastmap.so':
+  /usr/lib64/libstdc++.so.6: version `CXXABI_1.3.9' not found (required by /home/3735/R/x86_64-pc-linux-gnu-library/4.1/fastmap/libs/fastmap.so)
+Calls: loadNamespace ... asNamespace -> loadNamespace -> library.dynam -> dyn.load
+Execution halted
+[2025-05-08 17:23:34] - ERROR: Report generation failed. Last 10 lines:
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-08 17:26:12] - === STARTING REPORT GENERATION ===
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/home/3735/R/x86_64-pc-linux-gnu-library/4.1/fastmap/libs/fastmap.so':
+  /usr/lib64/libstdc++.so.6: version `CXXABI_1.3.9' not found (required by /home/3735/R/x86_64-pc-linux-gnu-library/4.1/fastmap/libs/fastmap.so)
+Calls: loadNamespace ... asNamespace -> loadNamespace -> library.dynam -> dyn.load
+Execution halted
+[2025-05-08 17:26:12] - ERROR: Report generation failed. Last 10 lines:
+Execution halted
+[2025-05-08 17:23:34] - ERROR: Report generation failed. Last 10 lines:
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-08 17:26:12] - === STARTING REPORT GENERATION ===
+Error in dyn.load(file, DLLpath = DLLpath, ...) : 
+  unable to load shared object '/home/3735/R/x86_64-pc-linux-gnu-library/4.1/fastmap/libs/fastmap.so':
+  /usr/lib64/libstdc++.so.6: version `CXXABI_1.3.9' not found (required by /home/3735/R/x86_64-pc-linux-gnu-library/4.1/fastmap/libs/fastmap.so)
+Calls: loadNamespace ... asNamespace -> loadNamespace -> library.dynam -> dyn.load
+Execution halted
+[2025-05-08 17:26:12] - ERROR: Report generation failed. Last 10 lines:
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-08 17:45:20] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/33                       
+2/33 [setup]               
+3/33                       
+4/33 [load-data]           
+5/33                       
+6/33 [check-invalid]       
+
+
+Quitting from GHG_SOIL_REPORT.Rmd:108-159 [check-invalid]
+Execution halted
+[2025-05-08 17:45:36] - ERROR: Report generation failed. Last 10 lines:
+2/33 [setup]               
+3/33                       
+4/33 [load-data]           
+5/33                       
+6/33 [check-invalid]       
+
+
+Quitting from GHG_SOIL_REPORT.Rmd:108-159 [check-invalid]
+Execution halted
+[2025-05-08 17:45:36] - ERROR: Report generation failed. Last 10 lines:
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-08 17:45:46] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/33                       
+2/33 [setup]               
+3/33                       
+4/33 [load-data]           
+5/33                       
+6/33 [check-invalid]       
+7/33                       
+8/33 [Nan-values monthly]  
+9/33                       
+10/33 [t test]              
+11/33                       
+12/33 [sensor-failures]     
+
+
+Quitting from GHG_SOIL_REPORT.Rmd:216-277 [sensor-failures]
+Execution halted
+[2025-05-08 17:45:57] - ERROR: Report generation failed. Last 10 lines:
+8/33 [Nan-values monthly]  
+9/33                       
+10/33 [t test]              
+11/33                       
+12/33 [sensor-failures]     
+
+
+Quitting from GHG_SOIL_REPORT.Rmd:216-277 [sensor-failures]
+Execution halted
+[2025-05-08 17:45:57] - ERROR: Report generation failed. Last 10 lines:
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-08 17:46:11] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/33                       
+2/33 [setup]               
+3/33                       
+4/33 [load-data]           
+5/33                       
+6/33 [check-invalid]       
+7/33                       
+8/33 [Nan-values monthly]  
+9/33                       
+10/33 [t test]              
+11/33                       
+12/33 [sensor-failures]     
+13/33                       
+14/33 [corelation matrix]   
+15/33                       
+16/33 [categorize-gaps]     
+17/33                       
+18/33 [summary]             
+19/33                       
+20/33 [monthly-trends]      
+21/33                       
+22/33 [time-series]         
+23/33                       
+24/33 [power-outage]        
+25/33                       
+26/33 [r2 analysis]         
+27/33                       
+28/33 [cv analysis]         
+29/33                       
+30/33 [flux-quality-control]
+31/33                       
+32/33 [flux anlysis monthly]
+33/33                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-08.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmpNkqszF/rmarkdown-str10267190acaf.html 
+Warning: LaTeX Warning: Label `tab:cv analysis' multiply defined.
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-08.pdf
+[2025-05-08 17:46:29] - SUCCESS: Report generated (512)
+[2025-05-08 17:46:29] - Email sent
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-08 18:50:01] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/33                       
+2/33 [setup]               
+3/33                       
+4/33 [load-data]           
+5/33                       
+6/33 [check-invalid]       
+7/33                       
+8/33 [Nan-values monthly]  
+9/33                       
+10/33 [t test]              
+11/33                       
+12/33 [sensor-failures]     
+13/33                       
+14/33 [corelation matrix]   
+15/33                       
+16/33 [categorize-gaps]     
+17/33                       
+18/33 [summary]             
+19/33                       
+20/33 [monthly-trends]      
+21/33                       
+22/33 [time-series]         
+23/33                       
+24/33 [power-outage]        
+25/33                       
+26/33 [r2 analysis]         
+27/33                       
+28/33 [cv analysis]         
+29/33                       
+30/33 [flux-quality-control]
+31/33                       
+32/33 [flux anlysis monthly]
+33/33                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-08.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmpS95qpb/rmarkdown-str3e05612ba24e.html 
+Warning: LaTeX Warning: Label `tab:cv analysis' multiply defined.
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-08.pdf
+[2025-05-08 18:50:20] - SUCCESS: Report generated (17K)
+[2025-05-08 18:50:20] - Email sent
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-09 02:00:01] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+Error in `c()`:
+! argument 2 is empty
+
+Quitting from GHG_SOIL_REPORT.Rmd:46-105 [load-data]
+Execution halted
+[2025-05-09 02:00:04] - ERROR: Report generation failed. Last 10 lines:
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+Error in `c()`:
+! argument 2 is empty
+
+Quitting from GHG_SOIL_REPORT.Rmd:46-105 [load-data]
+Execution halted
+[2025-05-09 02:00:04] - ERROR: Report generation failed. Last 10 lines:
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-09 02:03:01] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+5/19                       
+6/19 [check-invalid]       
+7/19                       
+8/19 [sensor-failures]     
+9/19                       
+10/19 [categorize-gaps]     
+11/19                       
+12/19 [summary]             
+13/19                       
+14/19 [r2 analysis]         
+15/19                       
+16/19 [cv analysis]         
+17/19                       
+18/19 [flux-quality-control]
+19/19                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-09.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmplPo8gA/rmarkdown-str13b495e32113e.html 
+! LaTeX Error: Unicode character ⁻ (U+207B)
+               not set up for use with LaTeX.
+
+Try other LaTeX engines instead (e.g., xelatex) if you are using pdflatex. See https://bookdown.org/yihui/rmarkdown-cookbook/latex-unicode.html
+Error: LaTeX failed to compile /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-09.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips. See GHG_SOIL_REPORT_2025-05-09.log for more info.
+Execution halted
+[2025-05-09 02:03:13] - ERROR: Report generation failed. Last 10 lines:
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-09.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmplPo8gA/rmarkdown-str13b495e32113e.html 
+! LaTeX Error: Unicode character ⁻ (U+207B)
+               not set up for use with LaTeX.
+
+Try other LaTeX engines instead (e.g., xelatex) if you are using pdflatex. See https://bookdown.org/yihui/rmarkdown-cookbook/latex-unicode.html
+Error: LaTeX failed to compile /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-09.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips. See GHG_SOIL_REPORT_2025-05-09.log for more info.
+Execution halted
+[2025-05-09 02:03:13] - ERROR: Report generation failed. Last 10 lines:
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-09 02:17:01] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+5/19                       
+6/19 [check-invalid]       
+7/19                       
+8/19 [sensor-failures]     
+9/19                       
+10/19 [categorize-gaps]     
+11/19                       
+12/19 [summary]             
+13/19                       
+14/19 [r2 analysis]         
+15/19                       
+16/19 [cv analysis]         
+17/19                       
+18/19 [flux-quality-control]
+19/19                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-09.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmpCGVX8v/rmarkdown-str144391a3db60f.html 
+! LaTeX Error: Unicode character ₂ (U+2082)
+               not set up for use with LaTeX.
+
+Try other LaTeX engines instead (e.g., xelatex) if you are using pdflatex. See https://bookdown.org/yihui/rmarkdown-cookbook/latex-unicode.html
+Error: LaTeX failed to compile /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-09.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips. See GHG_SOIL_REPORT_2025-05-09.log for more info.
+Execution halted
+[2025-05-09 02:17:08] - ERROR: Report generation failed. Last 10 lines:
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-09.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmpCGVX8v/rmarkdown-str144391a3db60f.html 
+! LaTeX Error: Unicode character ₂ (U+2082)
+               not set up for use with LaTeX.
+
+Try other LaTeX engines instead (e.g., xelatex) if you are using pdflatex. See https://bookdown.org/yihui/rmarkdown-cookbook/latex-unicode.html
+Error: LaTeX failed to compile /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-09.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips. See GHG_SOIL_REPORT_2025-05-09.log for more info.
+Execution halted
+[2025-05-09 02:17:08] - ERROR: Report generation failed. Last 10 lines:
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-09 02:20:02] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+5/19                       
+6/19 [check-invalid]       
+7/19                       
+8/19 [sensor-failures]     
+9/19                       
+10/19 [categorize-gaps]     
+11/19                       
+12/19 [summary]             
+13/19                       
+14/19 [r2 analysis]         
+15/19                       
+16/19 [cv analysis]         
+17/19                       
+18/19 [flux-quality-control]
+19/19                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-09.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/Rtmp47rJ6S/rmarkdown-str146853f134616.html 
+Warning: LaTeX Warning: Label `tab:cv analysis' multiply defined.
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-09.pdf
+[2025-05-09 02:20:08] - SUCCESS: Report generated (217K)
+[2025-05-09 02:20:08] - Email sent
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-09 22:07:08] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+5/19                       
+6/19 [check-invalid]       
+7/19                       
+8/19 [sensor-failures]     
+9/19                       
+10/19 [categorize-gaps]     
+11/19                       
+12/19 [summary]             
+13/19                       
+14/19 [r2 analysis]         
+15/19                       
+16/19 [cv analysis]         
+17/19                       
+18/19 [flux-quality-control]
+19/19                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-09.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/Rtmp6e3rnU/rmarkdown-str1e1fb551d99f8.html 
+Warning: LaTeX Warning: Label `tab:cv analysis' multiply defined.
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: output/GHG_SOIL_REPORT_2025-05-09.pdf
+[2025-05-09 22:07:15] - SUCCESS: Report generated (512)
+[2025-05-09 22:07:15] - Email sent
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-10 02:20:02] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+5/19                       
+6/19 [check-invalid]       
+7/19                       
+8/19 [sensor-failures]     
+9/19                       
+10/19 [categorize-gaps]     
+11/19                       
+12/19 [summary]             
+13/19                       
+14/19 [r2 analysis]         
+15/19                       
+16/19 [cv analysis]         
+17/19                       
+18/19 [flux-quality-control]
+19/19                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-10.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmpUAjAZt/rmarkdown-stre27a419e3cca.html 
+Warning: LaTeX Warning: Label `tab:cv analysis' multiply defined.
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-10.pdf
+[2025-05-10 02:20:08] - SUCCESS: Report generated (17K)
+[2025-05-10 02:20:08] - Email sent
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-10 08:00:03] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+5/19                       
+6/19 [check-invalid]       
+7/19                       
+8/19 [sensor-failures]     
+9/19                       
+10/19 [categorize-gaps]     
+11/19                       
+12/19 [summary]             
+13/19                       
+14/19 [r2 analysis]         
+15/19                       
+16/19 [cv analysis]         
+17/19                       
+18/19 [flux-quality-control]
+19/19                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-10.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmpOGHJA8/rmarkdown-str12d21536562.html 
+Warning: LaTeX Warning: Label `tab:cv analysis' multiply defined.
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-10.pdf
+[2025-05-10 08:00:11] - SUCCESS: Report generated (17K)
+[2025-05-10 08:00:11] - Email sent
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-11 02:20:02] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+5/19                       
+6/19 [check-invalid]       
+7/19                       
+8/19 [sensor-failures]     
+9/19                       
+10/19 [categorize-gaps]     
+11/19                       
+12/19 [summary]             
+13/19                       
+14/19 [r2 analysis]         
+15/19                       
+16/19 [cv analysis]         
+17/19                       
+18/19 [flux-quality-control]
+19/19                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-11.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmpuOQqcY/rmarkdown-str1f96f6f47f8eb.html 
+Warning: LaTeX Warning: Label `tab:cv analysis' multiply defined.
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-11.pdf
+[2025-05-11 02:20:09] - SUCCESS: Report generated (512)
+[2025-05-11 02:20:09] - Email sent
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-11 08:00:03] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+5/19                       
+6/19 [check-invalid]       
+7/19                       
+8/19 [sensor-failures]     
+9/19                       
+10/19 [categorize-gaps]     
+11/19                       
+12/19 [summary]             
+13/19                       
+14/19 [r2 analysis]         
+15/19                       
+16/19 [cv analysis]         
+17/19                       
+18/19 [flux-quality-control]
+19/19                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-11.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmpcEPkpH/rmarkdown-str5f44fc8cb26.html 
+Warning: LaTeX Warning: Label `tab:cv analysis' multiply defined.
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-11.pdf
+[2025-05-11 08:00:10] - SUCCESS: Report generated (512)
+[2025-05-11 08:00:10] - Email sent
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-12 02:20:03] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+5/19                       
+6/19 [check-invalid]       
+7/19                       
+8/19 [sensor-failures]     
+9/19                       
+10/19 [categorize-gaps]     
+11/19                       
+12/19 [summary]             
+13/19                       
+14/19 [r2 analysis]         
+15/19                       
+16/19 [cv analysis]         
+17/19                       
+18/19 [flux-quality-control]
+19/19                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-12.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmpBba5JP/rmarkdown-str1389133ffd964.html 
+Warning: LaTeX Warning: Label `tab:cv analysis' multiply defined.
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-12.pdf
+[2025-05-12 02:20:09] - SUCCESS: Report generated (512)
+[2025-05-12 02:20:09] - Email sent
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-12 08:00:03] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+5/19                       
+6/19 [check-invalid]       
+7/19                       
+8/19 [sensor-failures]     
+9/19                       
+10/19 [categorize-gaps]     
+11/19                       
+12/19 [summary]             
+13/19                       
+14/19 [r2 analysis]         
+15/19                       
+16/19 [cv analysis]         
+17/19                       
+18/19 [flux-quality-control]
+19/19                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-12.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmpJbhSvY/rmarkdown-str1deac1b5ef282.html 
+Warning: LaTeX Warning: Label `tab:cv analysis' multiply defined.
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-12.pdf
+[2025-05-12 08:00:10] - SUCCESS: Report generated (512)
+[2025-05-12 08:00:10] - Email sent
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-13 02:20:08] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+5/19                       
+6/19 [check-invalid]       
+7/19                       
+8/19 [sensor-failures]     
+9/19                       
+10/19 [categorize-gaps]     
+11/19                       
+12/19 [summary]             
+13/19                       
+14/19 [r2 analysis]         
+15/19                       
+16/19 [cv analysis]         
+17/19                       
+18/19 [flux-quality-control]
+19/19                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-13.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/Rtmp2E2try/rmarkdown-str1ac9b3d0436f.html 
+Warning: LaTeX Warning: Label `tab:cv analysis' multiply defined.
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-13.pdf
+[2025-05-13 02:20:14] - SUCCESS: Report generated (512)
+[2025-05-13 02:20:14] - Email sent
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-13 08:00:02] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+5/19                       
+6/19 [check-invalid]       
+7/19                       
+8/19 [sensor-failures]     
+9/19                       
+10/19 [categorize-gaps]     
+11/19                       
+12/19 [summary]             
+13/19                       
+14/19 [r2 analysis]         
+15/19                       
+16/19 [cv analysis]         
+17/19                       
+18/19 [flux-quality-control]
+19/19                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-13.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmpKPcIZ2/rmarkdown-str125a73f96fd41.html 
+Warning: LaTeX Warning: Label `tab:cv analysis' multiply defined.
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-13.pdf
+[2025-05-13 08:00:09] - SUCCESS: Report generated (512)
+[2025-05-13 08:00:09] - Email sent
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-14 02:20:07] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+5/19                       
+6/19 [check-invalid]       
+7/19                       
+8/19 [sensor-failures]     
+9/19                       
+10/19 [categorize-gaps]     
+11/19                       
+12/19 [summary]             
+13/19                       
+14/19 [r2 analysis]         
+15/19                       
+16/19 [cv analysis]         
+17/19                       
+18/19 [flux-quality-control]
+19/19                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-14.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmpkPiB66/rmarkdown-str1abb46e9c9aa8.html 
+Warning: LaTeX Warning: Label `tab:cv analysis' multiply defined.
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-14.pdf
+[2025-05-14 02:20:13] - SUCCESS: Report generated (512)
+[2025-05-14 02:20:13] - Email sent
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-14 08:00:03] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+5/19                       
+6/19 [check-invalid]       
+7/19                       
+8/19 [sensor-failures]     
+9/19                       
+10/19 [categorize-gaps]     
+11/19                       
+12/19 [summary]             
+13/19                       
+14/19 [r2 analysis]         
+15/19                       
+16/19 [cv analysis]         
+17/19                       
+18/19 [flux-quality-control]
+19/19                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-14.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/Rtmp1bv52L/rmarkdown-str10dc139a4a410.html 
+Warning: LaTeX Warning: Label `tab:cv analysis' multiply defined.
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-14.pdf
+[2025-05-14 08:00:11] - SUCCESS: Report generated (25K)
+[2025-05-14 08:00:11] - Email sent
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-15 02:20:03] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+5/19                       
+6/19 [check-invalid]       
+7/19                       
+8/19 [sensor-failures]     
+9/19                       
+10/19 [categorize-gaps]     
+11/19                       
+12/19 [summary]             
+13/19                       
+14/19 [r2 analysis]         
+15/19                       
+16/19 [cv analysis]         
+17/19                       
+18/19 [flux-quality-control]
+19/19                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-15.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmpENSWmf/rmarkdown-str119c23099e233.html 
+Warning: LaTeX Warning: Label `tab:cv analysis' multiply defined.
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-15.pdf
+[2025-05-15 02:20:09] - SUCCESS: Report generated (17K)
+[2025-05-15 02:20:09] - Email sent
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-15 08:00:03] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+5/19                       
+6/19 [check-invalid]       
+7/19                       
+8/19 [sensor-failures]     
+9/19                       
+10/19 [categorize-gaps]     
+11/19                       
+12/19 [summary]             
+13/19                       
+14/19 [r2 analysis]         
+15/19                       
+16/19 [cv analysis]         
+17/19                       
+18/19 [flux-quality-control]
+19/19                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-15.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmpuL9MzX/rmarkdown-stre82f3a1a185f.html 
+Warning: LaTeX Warning: Label `tab:cv analysis' multiply defined.
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-15.pdf
+[2025-05-15 08:00:09] - SUCCESS: Report generated (512)
+[2025-05-15 08:00:09] - Email sent
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-16 02:20:02] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+5/19                       
+6/19 [check-invalid]       
+7/19                       
+8/19 [sensor-failures]     
+9/19                       
+10/19 [categorize-gaps]     
+11/19                       
+12/19 [summary]             
+13/19                       
+14/19 [r2 analysis]         
+15/19                       
+16/19 [cv analysis]         
+17/19                       
+18/19 [flux-quality-control]
+19/19                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-16.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/Rtmp8M1cT3/rmarkdown-str205f7f7ba857.html 
+Warning: LaTeX Warning: Label `tab:cv analysis' multiply defined.
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-16.pdf
+[2025-05-16 02:20:09] - SUCCESS: Report generated (512)
+[2025-05-16 02:20:09] - Email sent
+R scripting front-end version 4.1.3 (2022-03-10)
+[2025-05-16 08:00:02] - === STARTING REPORT GENERATION ===
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+5/19                       
+6/19 [check-invalid]       
+7/19                       
+8/19 [sensor-failures]     
+9/19                       
+10/19 [categorize-gaps]     
+11/19                       
+12/19 [summary]             
+13/19                       
+14/19 [r2 analysis]         
+15/19                       
+16/19 [cv analysis]         
+17/19                       
+18/19 [flux-quality-control]
+19/19                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-16.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/Rtmp6VNsKF/rmarkdown-strdf8f3679d19d.html 
+Warning: LaTeX Warning: Label `tab:cv analysis' multiply defined.
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-16.pdf
+[2025-05-16 08:00:09] - SUCCESS: Report generated (512)
+[2025-05-16 08:00:09] - Email sent

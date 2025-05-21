@@ -1,0 +1,37 @@
+[2025-05-17 08:00:02] - Starting report generation...
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+5/19                       
+6/19 [check-invalid]       
+7/19                       
+8/19 [sensor-failures]     
+9/19                       
+10/19 [categorize-gaps]     
+11/19                       
+12/19 [summary]             
+13/19                       
+14/19 [r2 analysis]         
+15/19                       
+16/19 [cv analysis]         
+17/19                       
+18/19 [flux-quality-control]
+19/19                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-17.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmptgAHwK/rmarkdown-str3c75669639da.html 
+Warning: LaTeX Warning: Label `tab:cv analysis' multiply defined.
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-17.pdf
+[2025-05-17 08:00:10] - SUCCESS: Report generated (17K)
+[2025-05-17 08:00:10] - Email sent to asritha@udel.edu
+[2025-05-17 08:00:10] - Report deleted after email.
+[2025-05-17 08:00:10] - Report Generation Completed

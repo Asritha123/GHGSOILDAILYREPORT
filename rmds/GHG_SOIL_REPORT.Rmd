@@ -1,0 +1,555 @@
+---
+title: "GHG Soil Daily Analysis Report"
+author: "Asritha Polu"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
+output:
+  pdf_document:
+    toc: true
+    number_sections: true
+    latex_engine: pdflatex
+    keep_md: true
+    extra_dependencies: ["booktabs", "caption", "float", "wrapfig", "colortbl", "xcolor", "multirow"]
+    includes:
+      in_header: preamble.tex
+
+knitr:
+  opts_chunk:
+    echo: false     
+    warning: false  
+    message: false 
+    results: 'hide' 
+    fig.show: 'asis' 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+# Load required packages
+library(dplyr)  
+library(lubridate)
+library(kableExtra)
+library(ggplot2)
+library(patchwork)
+library(corrplot)
+library(ggridges)
+library(moments)
+library(purrr)
+library(rmarkdown)
+library(here)
+library(tidyr)
+library(corrplot)
+library(reshape2)
+```
+
+## 1. Load and Process Data
+
+```{r load-data}
+# Set the directory containing chamber data files
+dir_path <- c(
+  "/lustre/darse/users/3735/ghgsoilproject/csvs/")
+# Identify instrument CSV files
+csv_files_82m <- 
+  list.files(path = dir_path, pattern = "^82m-0572-.*\\.csv$", full.names = TRUE)
+csv_files_xxx <- 
+  list.files(path = dir_path, pattern = "^xxx-xxxx-.*\\.csv$", full.names = TRUE)
+
+# Function to read and clean each CSV file
+read_and_process_csv <- function(file) {
+  data <- tryCatch({
+    read.csv(file, header = TRUE, skip = 1, stringsAsFactors = FALSE)
+  }, error = function(e) {
+    return(NULL)
+  })
+  if (is.null(data)) {
+    return(NULL)
+}
+  colnames(data) <- trimws(colnames(data))  # Clean col names
+
+  if (!all(c("DATE", "TIME") %in% colnames(data))) {
+    return(NULL)
+  }
+  
+  data$TIME <- sprintf("%06d", as.numeric(data$TIME))
+  data$DateTime <-
+    as.POSIXct(paste(data$DATE, data$TIME), format = "%Y%m%d %H%M%S", tz = "UTC")
+  if(all(is.na(data$DateTime))){
+    retun(NULL)
+  }
+  data <- data %>% filter(!is.na(DateTime))
+  #cat("Parsed", nrow(data), "rows with valid DateTime\n")
+  return(data)
+}
+
+# Process files
+processed_82m <- lapply(csv_files_82m, read_and_process_csv)
+processed_xxx <- lapply(csv_files_xxx, read_and_process_csv)
+processed_82m <- Filter(Negate(is.null), processed_82m)
+processed_xxx <- Filter(Negate(is.null), processed_xxx)
+
+# Combine all into one
+data_82m <- if (length(processed_82m) > 0) bind_rows(processed_82m) else data.frame()
+data_xxx <- if (length(processed_xxx) > 0) bind_rows(processed_xxx) else data.frame()
+final_data <- bind_rows(data_82m, data_xxx)
+cat("Number of rows in final_data:", nrow(final_data), "\n")
+
+# Check if final_data is empty
+if (nrow(final_data) == 0) {
+  cat("Error: No valid data loaded. Check CSV files in", dir_path, "for correct format and required columns (DATE, TIME, FN2O, FCO2, PORT).\n")
+  knitr::knit_exit()  # Stop further processing
+}
+
+# Check if DateTime is valid and calculate TimeDiff
+if (!"DateTime" %in% colnames(final_data) || all(is.na(final_data$DateTime))) {
+  cat("Cannot compute TimeDiff: DateTime column missing or invalid\n")
+} else {
+  final_data <- final_data %>%
+    arrange(DateTime) %>%
+    mutate(
+      PrevTime = lag(DateTime),
+      TimeDiff = as.numeric(difftime(DateTime, PrevTime, units = "secs")),
+      TimeDiff_min = TimeDiff / 60
+    ) %>%
+    filter(!is.na(TimeDiff_min) & TimeDiff_min >= 0)  # Filter out NA or negative gaps
+}
+```
+## Checking Valid & Invalid
+```{r check-invalid}
+# Step 1: Flag rows with any -9999 or "-9999" values
+final_data$HadMinus9999 <- pmap_lgl(final_data, function(...) {
+  row <- c(...)
+  any(row == -9999 | row == "-9999", na.rm = TRUE)
+})
+
+# Step 2: Flag rows with any NA values
+final_data$HasMissing <- pmap_lgl(final_data, function(...) {
+  row <- c(...)
+  any(is.na(row))
+})
+
+# Step 3: Combined status flag (for easy summary later)
+final_data$InvalidStatus <- case_when(
+  final_data$HadMinus9999 & final_data$HasMissing ~ "Has -9999 and Missing",
+  final_data$HadMinus9999 & !final_data$HasMissing ~ "Has -9999 Only",
+  !final_data$HadMinus9999 & final_data$HasMissing ~ "Has Missing Only",
+  TRUE ~ "Valid Row"
+)
+
+# Sanity check for flags
+stopifnot(is.logical(final_data$HadMinus9999))
+stopifnot(is.logical(final_data$HasMissing))
+
+# Step 4: Create kable summary of invalid rows (flagging summary)
+invalid_summary <- final_data %>%
+  group_by(InvalidStatus) %>%
+  summarise(Count = n()) %>%
+  mutate(Percentage = round(Count / sum(Count) * 100, 1)) %>%
+  arrange(desc(Count))
+
+# Step 5: Display the invalid summary with kable
+kable(invalid_summary,
+      caption = "Summary of Invalid or Missing Rows",
+      col.names = c("Row Type", "Count", "Percentage (%)")) %>%
+  kable_styling(latex_options = c("striped", "hold_position")) %>%
+  column_spec(1, bold = TRUE) %>%
+  add_footnote("'Has -9999 Only' indicates rows with placeholder values (-9999), but no other missing data.")
+
+# Step 6: Filter rows that do not have -9999 and NA values (cleaned data)
+filtered_data <- final_data %>%
+  filter(!HadMinus9999 & !HasMissing)  # Filter out rows with -9999 or NA
+
+# Print the number of rows after filtering
+cat("Rows after filtering missing and -9999 values:", nrow(filtered_data), "\n")
+
+# Optionally, write the cleaned data to a CSV file
+#write.csv(filtered_data, "cleaned_ghg_data.csv", row.names = FALSE)
+
+
+```
+
+## PreviousDay Average Fluxes
+```{r previous-flux}
+find_csv_file <- function(date, dir_path) {
+  pattern <- sprintf("^82m-0572-%s.*\\.csv$", format(date, "%Y%m%d"))
+  file <- list.files(path = dir_path, pattern = pattern, full.names = TRUE)
+  if (length(file) == 0) {
+    cat(sprintf("No CSV file found for %s\n", date))
+    return(NULL)
+  }
+  return(file[1])
+}
+
+# Set directory path 
+dir_path <- "/lustre/darse/users/3735/ghgsoilproject/csvs/"
+
+# Get current and previous dates from the data
+current_date <- max(as.Date(final_data$DATE, format = "%Y%m%d"), na.rm = TRUE)
+previous_date <- current_date - 1
+
+# Find previous and current day's CSV files
+previous_file <- find_csv_file(previous_date, dir_path)
+current_file <- find_csv_file(current_date, dir_path)
+
+# Helper function to process and summarize flux data
+process_flux_data <- function(data_file, date_label) {
+  if (is.null(data_file)) {
+    cat(sprintf("No data available for %s (%s).\n", date_label, data_file))
+    return(NULL)
+  }
+  
+  # Read and process data
+  data <- read_and_process_csv(data_file)
+  
+  # Check for required columns
+  if (!("FCO2" %in% colnames(data) && "FN2O" %in% colnames(data))) {
+    cat(sprintf("Error: Missing FCO2 or FN2O columns in file %s\n", data_file))
+    knitr::knit_exit()
+  }
+  
+  # Clean and convert flux data
+  summary <- data %>%
+    mutate(
+      # Convert -9999 to NA
+      FCO2 = as.numeric(ifelse(FCO2 == -9999, NA, FCO2)),
+      FN2O = as.numeric(ifelse(FN2O == -9999, NA, FN2O)),
+      
+      # Convert to daily flux (mg C m⁻² day⁻¹ and mg N m⁻² day⁻¹)
+      FCO2_mgC_day = ifelse(!is.na(FCO2), FCO2 * 12.01 * 86400 / 1e6, NA),
+      FN2O_mgN_day = ifelse(!is.na(FN2O), FN2O * 14.01 * 86400 / 1e6, NA)
+    ) %>%
+    summarise(
+      FN2O_mgN_day_Mean = round(mean(FN2O_mgN_day, na.rm = TRUE), 3),
+      FCO2_mgC_day_Mean = round(mean(FCO2_mgC_day, na.rm = TRUE), 3),
+      FN2O_Count = sum(!is.na(FN2O_mgN_day)),
+      FCO2_Count = sum(!is.na(FCO2_mgC_day))
+    )
+  
+  # Add date label
+  summary$Date_Label <- date_label
+  return(summary)
+}
+
+# Process previous and current day's data
+previous_summary <- process_flux_data(previous_file, "Previous Day")
+current_summary <- process_flux_data(current_file, "Present Day")
+
+# Combine summaries if both are available
+if (!is.null(previous_summary) && !is.null(current_summary)) {
+  combined_summary <- bind_rows(previous_summary, current_summary)
+  
+  # Display summary table
+  kable(
+    combined_summary,
+    caption = sprintf("Mean FN2O and FCO2 Fluxes for %s and %s", previous_date, current_date),
+    col.names = c("FN2O", "FCO2", "FN2O Count", "FCO2 Count", "Date")
+  ) %>%
+    kable_styling(latex_options = c("striped", "hold_position")) %>%
+    column_spec(1, bold = TRUE)
+  
+} else {
+  cat("Summary not available for both previous and present days.\n")
+  knitr::knit_exit()
+}
+```
+Table shows **previous/present days average fluxes** for **FCO2 (mg C m\(^-2\) day\(^-1\))** and **FN2O (mg N m\(^-2\) day\(^-1\))**.
+
+## Sensor Failures
+
+```{r multiple-rows}
+# Step 1: Categorize rows based on the presence of -9999 in different columns
+final_data$Has_One_Column_9999 <- apply(final_data, 1, function(row) sum(row == -9999) == 1)
+final_data$Has_Multiple_Columns_9999 <- apply(final_data, 1, function(row) sum(row == -9999) > 1)
+final_data$Has_All_Columns_9999 <- apply(final_data, 1, function(row) all(row == -9999))
+
+# Step 2: Summarize by MonthYear
+monthly_summary <- final_data %>%
+  mutate(MonthYear = format(as.Date(DateTime), "%Y-%m")) %>%
+  group_by(MonthYear) %>%
+  summarise(
+    TotalRows = n(),
+    RowsWith_One_Column = sum(Has_One_Column_9999),
+    RowsWith_Multiple_Columns = sum(Has_Multiple_Columns_9999),
+    RowsWith_All_Columns = sum(Has_All_Columns_9999)
+  )
+
+# Step 3: Create the summary table
+kable(monthly_summary, caption = "Monthly Summary of Rows with -9999 in Specific Columns") %>%
+  kable_styling(latex_options = c("striped", "hold_position")) %>%
+  column_spec(1, bold = TRUE)
+
+# Step 1: Flag rows where only one column has -9999 and mark them for review
+final_data$Check <- apply(final_data, 1, function(row) {
+  num_minus9999 <- sum(row == -9999, na.rm = TRUE)
+  
+  if (num_minus9999 == 1) {
+    return("Single Column Failure")  # Mark as single column failure
+  } else if (num_minus9999 > 1) {
+    return("Multiple Column Failure")  # Mark as multiple columns failure
+  } else {
+    return("Valid Data")  # Valid data with no -9999
+  }
+})
+
+# Step 2: Check the rows that are flagged as single column failures
+single_column_failures <- final_data %>%
+  filter(Check == "Single Column Failure")
+
+
+# Step 3: Clean the data by removing rows with -9999 values (if you want to remove rows entirely)
+final_data_cleaned <- final_data %>%
+  filter(!apply(final_data, 1, function(x) any(x == -9999)))
+
+
+```
+## Time Gap Categorization & Flagging
+```{r categorize-gaps}
+# Ensure TimeDiff_min exists and is valid
+if (!exists("final_data") || !"TimeDiff_min" %in% names(final_data) 
+    || all(is.na(final_data$TimeDiff_min))) {
+  stop("`TimeDiff_min` column is missing or entirely NA.")
+}
+
+# Step 1: Remove first row that always has NA in TimeDiff_min
+final_data <- final_data %>%
+  filter(!is.na(TimeDiff_min))
+
+# Step 2: Categorize time gaps and assign flags
+final_data <- final_data %>%
+  mutate(
+    GapCategory = case_when(
+      TimeDiff_min < 1 ~ "< 1 min",
+      TimeDiff_min >= 1 & TimeDiff_min < 3 ~ "1 - 3 min",
+      TimeDiff_min >= 3 & TimeDiff_min < 10 ~ "3 - 10 min",
+      TimeDiff_min >= 10 & TimeDiff_min < 30 ~ "10 - 30 min",
+      TimeDiff_min >= 30 & TimeDiff_min < 60 ~ "30 - 60 min",
+      TimeDiff_min >= 60 & TimeDiff_min < 360 ~ "1 - 6 hours",
+      TimeDiff_min >= 360 & TimeDiff_min < 720 ~ "6 - 12 hours",
+      TimeDiff_min >= 720 & TimeDiff_min < 1440 ~ "12 - 24 hours",
+      TimeDiff_min >= 1440 & TimeDiff_min < 7200 ~ "1 - 5 days",
+      TimeDiff_min >= 7200 ~ "> 5 days",
+      TRUE ~ "Unknown"
+    ),
+    TimeGapFlag = case_when(
+      TimeDiff_min > 1440 ~ "Very Long Gap",
+      TimeDiff_min > 60 ~ "Long Gap",
+      TimeDiff_min < 1 ~ "Very Short Gap",
+      TRUE ~ "OK"
+    )
+  )
+
+final_data %>%
+  filter(GapCategory %in% c("1 - 6 hours", "6 - 12 hours", "12 - 24 hours", "1 - 5 days")) %>%
+  select(DateTime, TimeDiff_min, GapCategory, TimeGapFlag)
+
+# Step 3: Filter for large or significant gaps only
+final_data_filtered <- final_data %>%
+  filter(!is.na(GapCategory)) %>%
+  filter(TimeDiff_min >= 30)  # or >= 60 if you only want 1+ hr gaps
+```
+
+## Summary & Visualization
+
+```{r summary}
+# Check distribution shape
+skew_value <- skewness(final_data_filtered$TimeDiff_min, na.rm = TRUE)
+print(paste("Skewness of TimeDiff_min:", round(skew_value, 2)))
+
+# Filter the data to exclude '30 - 60 min' and keep only gaps > 1 hour
+final_data_filtered <- final_data %>%
+ filter(GapCategory %in% c("1 - 6 hours", "6 - 12 hours", "12 - 24 hours", "> 5 days"))
+
+# plot for gaps > 1 hour
+ggplot(final_data_filtered, aes(x = GapCategory, fill = GapCategory)) +
+  geom_bar() +
+  geom_text(stat = "count", aes(label = ..count..), vjust = -0.1, fontface = "bold", 
+            size = 3) +
+  labs(
+    title = "Figure 1: Distribution of Time Gap Durations",
+    subtitle = "Filtered to gaps > 2 hour across sampling period",  # Updated subtitle
+    x = "Gap Duration Category", 
+    y = "Count"
+  ) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(size = 11),
+        axis.text.y = element_text(size = 11),
+        plot.title = element_text(size = 14, face = "bold"),
+        plot.subtitle = element_text(size = 12)) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 10))
+```
+
+
+
+## R2 Analysis 
+
+```{r r2 analysis}
+# Step 1: Filter out rows where the R² value for CO2 flux (FCO2) is below 0.75
+filtered_data$FCO2_R2 <- as.numeric(filtered_data$FCO2_R2)
+
+filtered_data$CO2_R2_Flag <- case_when(
+  filtered_data$FCO2_R2 < 0.75 ~ "Low R² (CO2 flux)",  # Flag rows with poor R² for CO2
+  TRUE ~ "Valid R²"                               
+)
+
+# Step 2: Filter out data where R² for CO2 flux is below 0.75 (this is your filtered data)
+filtered_data_by_r2 <- filtered_data %>%
+  filter(CO2_R2_Flag == "Valid R²")  # Keep only valid R² rows
+
+# Correct the calculation of summary statistics
+summary_r2 <- filtered_data %>%
+  summarise(
+    TotalRecords = n(),  # Total number of records in the filtered data
+    Above75 = sum(FCO2_R2 >= 0.75, na.rm = TRUE),  # Count of rows where R² is >= 0.75
+    Below75 = sum(FCO2_R2 < 0.75, na.rm = TRUE),   # Count of rows where R² is < 0.75
+    PercentAbove75 = round(Above75 / TotalRecords * 100, 1),  # Percentage of rows with R² >= 0.75
+    PercentBelow75 = round(Below75 / TotalRecords * 100, 1)    # Percentage of rows with R² < 0.75
+  )
+
+# Print the summary table using kable for better readability
+library(knitr)
+kable(summary_r2, caption = "Summary of R² Values for CO2 Flux (FCO2)", 
+      col.names = c("Total Records", "R² >= 0.75", "R² < 0.75", "Percentage >= 0.75", "Percentage < 0.75")) %>%
+  kable_styling(latex_options = c("striped", "hold_position"))
+
+# Plotting the distribution of CO2 R² values
+print(
+  ggplot(filtered_data_by_r2 %>% filter(!is.na(FCO2_R2)), aes(x = FCO2_R2)) +
+    geom_histogram(aes(fill = FCO2_R2 >= 0.75), binwidth = 0.05, color = "white") +
+    geom_vline(xintercept = 0.75, color = "red", linetype = "dashed", linewidth = 1) +  # Add the red dashed line
+    annotate("text", x = 0.25, y = Inf,
+             label = paste("", 
+                           sum(filtered_data_by_r2$FCO2_mgC_day < 0, na.rm = TRUE)),  # Add the count of negative flux values
+             vjust = 1, color = "#e7298a", fontface = "bold") +
+    scale_fill_manual(values = c("TRUE" = "#1b9e77", "FALSE" = "#d95f02")) +
+    labs(
+      title = "Figure 2: Distribution of R² Values for CO2 Flux",
+      x = "R² Value", 
+      y = "Count"
+    ) +
+    theme_minimal() +
+    theme(legend.position = "none")
+)
+
+
+
+
+```
+
+## CV Analysis 
+```{r cv-analysis}
+filtered_data <- filtered_data %>%
+  mutate(
+    # CO2 Flux Flags
+    FCO2_CV_Flag = case_when(
+      FCO2_CV < 0.5 ~ "Ideal",                # CV < 0.5%: Ideal
+      FCO2_CV >= 0.5 & FCO2_CV <= 2 ~ "Acceptable",  # CV between 0.5% and 2%: Acceptable
+      FCO2_CV > 3 ~ "Issue",                  # CV > 3%: Issue
+      TRUE ~ "Plausible"
+    )
+  )
+
+# Summary for CO2 CV flags
+co2_cv_summary <- filtered_data %>%
+  count(FCO2_CV_Flag) %>%
+  mutate(Percentage = round(n / sum(n) * 100, 1)) %>%
+  rename(`CO2 Flux CV Flag` = FCO2_CV_Flag, Count = n)
+
+# Display summaries
+kable(co2_cv_summary, caption = "Summary of CO2 Flux CV Flags") 
+
+# Plot CO2 Flux Flag Distribution
+ggplot(filtered_data %>% filter(!is.na(FCO2_CV_Flag)), aes(x = FCO2_CV_Flag)) +
+  geom_bar(aes(fill = FCO2_CV_Flag)) +
+  geom_text(stat = "count", aes(label = ..count..), vjust = -0.2, fontface = "bold", size = 4) +
+  labs(title = "Figure 3:Distribution of CO2 Flux CV Flags", x = "CO2 Flux CV Flag", y = "Count") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 10))
+```
+# CO2 flux CVs are classified as follows: **Ideal** (\(< 0.5\)), **Acceptable** (\(0.5 - 2\)), **Plausible** (\(2 - 3\)), and **Issue** (\(> 3\)), based on the level of variability in the measurements.
+
+## Flux Control
+
+```{r flux-quality-control}
+# Ensure FCO2 and FN2O are numeric and handle invalid values
+filtered_data_by_r2 <- filtered_data_by_r2 %>%
+  mutate(
+    FCO2 = as.numeric(ifelse(FCO2 == -9999, NA, FCO2)),
+    FN2O = as.numeric(ifelse(FN2O == -9999, NA, FN2O)),
+    
+    # Calculate fluxes if not already computed
+    FCO2_mgC_day = ifelse(!is.na(FCO2), FCO2 * 12.01 * 86400 / 1e6, NA),  # Convert FCO2 to mgC/day
+    FN2O_mgN_day = ifelse(!is.na(FN2O), FN2O * 14.01 * 86400 / 1e6, NA)   # Convert FN2O to mgN/day
+  )
+
+# Flagging for FCO2 and FN2O based on the defined conditions
+filtered_data_by_r2 <- filtered_data_by_r2 %>%
+  mutate(
+    # CO2 Flux Flags
+    FCO2_flag = case_when(
+      is.na(FCO2_mgC_day) ~ "Missing",
+      FCO2_mgC_day < 0 ~ "Negative",
+      FCO2_mgC_day > 4000 ~ "Extremely High (>4000)",
+      FCO2_mgC_day < 100 ~ "Very Low (<100)",
+      TRUE ~ "Plausible"
+    ),
+    
+    # N2O Flux Flags
+    FN2O_flag = case_when(
+      is.na(FN2O_mgN_day) ~ "Missing",
+      FN2O_mgN_day < 0 ~ "Negative",
+      FN2O_mgN_day > 5 ~ "Extremely High (>5)",
+      FN2O_mgN_day < 0.01 ~ "Below Detection (<0.01)",
+      TRUE ~ "Plausible"
+    )
+  )
+
+# Summarize the flagging for CO2 and N2O
+co2_flag_summary <- filtered_data_by_r2 %>%
+  count(FCO2_flag) %>%
+  mutate(Percentage = round(n / sum(n) * 100, 1)) %>%
+  rename(`CO Flux Flag` = FCO2_flag, Count = n)
+
+n2o_flag_summary <- filtered_data_by_r2 %>%
+  count(FN2O_flag) %>%
+  mutate(Percentage = round(n / sum(n) * 100, 1)) %>%
+  rename(`NO Flux Flag` = FN2O_flag, Count = n)
+
+# Display the summary tables for both CO2 and N2O flux flags
+
+# Display the summary tables for both CO2 and N2O flux flags
+kable(co2_flag_summary, caption = "Summary of CO2 Flux Flags") %>%
+  kable_styling(latex_options = c("striped", "hold_position"))
+
+kable(n2o_flag_summary, caption = "Summary of N2O Flux Flags") %>%
+  kable_styling(latex_options = c("striped", "hold_position"))
+
+# Plotting the flag distribution for both FCO2 and FN2O
+
+# CO2 Flux Flag Plot
+print(
+  ggplot(filtered_data_by_r2 %>% filter(!is.na(FCO2_flag)), aes(x = FCO2_flag)) +
+    geom_bar(aes(fill = FCO2_flag)) +
+    geom_text(stat = "count", aes(label = ..count..), vjust = -0.2, fontface = "bold", size = 4) +
+    labs(title = "Figure 4: Distribution of CO2 Flux Flags",
+         subtitle = "Flagging based on FCO2 flux values",
+         x = "CO2 Flux Flag", y = "Count") +
+    theme_minimal() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 10))
+)
+
+# N2O Flux Flag Plot
+print(
+  ggplot(filtered_data_by_r2 %>% filter(!is.na(FN2O_flag)), aes(x = FN2O_flag)) +
+    geom_bar(aes(fill = FN2O_flag)) +
+    geom_text(stat = "count", aes(label = ..count..), vjust = -0.2, fontface = "bold", size = 3) +
+    labs(title = "Figure 5: Distribution of N2O Flux Flags",
+         subtitle = "Flagging based on FN2O flux values",
+         x = "N2O Flux Flag", y = "Count") +
+    theme_minimal() +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1, size = 10))
+)
+
+
+```
+CO2 flux flags are classified as **Missing**, **Negative (< 0)**, **Very Low (< 100)**, **Plausible (100 - 4000)**, and **Extremely High (> 4000)**, with units in **mg C m<sup>-2</sup> day<sup>-1</sup>.
+
+N2O flux flags are classified as **Missing**, **Negative (< 0)**, **Below Detection (< 0.01)**, **Plausible (0.01 - 5)**, and **Extremely High (> 5)**, with units in **mg N m<sup>-2</sup> day<sup>-1</sup>.
+

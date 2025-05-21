@@ -1,0 +1,36 @@
+[2025-05-21 08:00:02] - Starting report generation...
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/21                       
+2/21 [setup]               
+3/21                       
+4/21 [load-data]           
+5/21                       
+6/21 [check-invalid]       
+7/21                       
+8/21 [previous-flux]       
+9/21                       
+10/21 [multiple-rows]       
+11/21                       
+12/21 [categorize-gaps]     
+13/21                       
+14/21 [summary]             
+15/21                       
+16/21 [r2 analysis]         
+17/21                       
+18/21 [cv-analysis]         
+19/21                       
+20/21 [flux-quality-control]
+21/21                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-21.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/Rtmp5sCF1A/rmarkdown-str75af7e8bf455.html 
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-21.pdf
+[2025-05-21 08:01:27] - SUCCESS: Report generated (512)
+[2025-05-21 08:01:28] - Email sent to asritha@udel.edu
+[2025-05-21 08:01:28] - Report deleted after email.
+[2025-05-21 08:01:29] - Report Generation Completed

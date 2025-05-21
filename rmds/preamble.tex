@@ -1,0 +1,40 @@
+\usepackage[utf8]{inputenc}  % Critical for Unicode support in pdflatex
+\usepackage{newunicodechar}  % For mapping Unicode characters
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{setspace}
+
+% Unicode character mappings
+\newunicodechar{≥}{\ensuremath{\geq}}
+\newunicodechar{≤}{\ensuremath{\leq}}
+\newunicodechar{≠}{\ensuremath{\neq}}
+
+\geometry{top=1in, bottom=1in, left=1in, right=1in}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\pagestyle{fancy}
+\fancyhead[L]{GHG Soil Data Report}
+\fancyhead[R]{\thepage}
+\fancyfoot[C]{Generated on \today}
+
+\setstretch{1.5}
+\newcommand{\vect}[1]{\mathbf{#1}}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}

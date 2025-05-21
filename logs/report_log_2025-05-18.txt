@@ -1,0 +1,234 @@
+[2025-05-18 08:00:03] - Starting report generation...
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/19                       
+2/19 [setup]               
+3/19                       
+4/19 [load-data]           
+5/19                       
+6/19 [check-invalid]       
+7/19                       
+8/19 [sensor-failures]     
+9/19                       
+10/19 [categorize-gaps]     
+11/19                       
+12/19 [summary]             
+13/19                       
+14/19 [r2 analysis]         
+15/19                       
+16/19 [cv analysis]         
+17/19                       
+18/19 [flux-quality-control]
+19/19                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-18.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmpddVn2i/rmarkdown-str17129371cf457.html 
+Warning: LaTeX Warning: Label `tab:cv analysis' multiply defined.
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: `!h' float specifier changed to `!ht'.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-18.pdf
+[2025-05-18 08:00:10] - SUCCESS: Report generated (512)
+[2025-05-18 08:00:10] - Email sent to asritha@udel.edu
+[2025-05-18 08:00:10] - Report deleted after email.
+[2025-05-18 08:00:10] - Report Generation Completed
+[2025-05-18 21:24:37] - Starting report generation...
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/21                       
+2/21 [setup]               
+3/21                       
+4/21 [load-data]           
+5/21                       
+6/21 [check-invalid]       
+7/21                       
+8/21 [previous-flux]       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-18.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmpiY7kcS/rmarkdown-str14767fd9813c.html 
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-18.pdf
+[2025-05-18 21:24:43] - SUCCESS: Report generated (113K)
+[2025-05-18 21:24:43] - Email sent to asritha@udel.edu
+[2025-05-18 21:24:43] - Report deleted after email.
+[2025-05-18 21:24:43] - Report Generation Completed
+[2025-05-18 21:30:52] - Starting report generation...
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/21                       
+2/21 [setup]               
+3/21                       
+4/21 [load-data]           
+5/21                       
+6/21 [check-invalid]       
+7/21                       
+8/21 [previous-flux]       
+9/21                       
+10/21 [multiple-rows]       
+11/21                       
+12/21 [categorize-gaps]     
+13/21                       
+14/21 [summary]             
+15/21                       
+16/21 [r2 analysis]         
+17/21                       
+18/21 [cv-analysis]         
+19/21                       
+20/21 [flux-quality-control]
+21/21                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-18.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/Rtmp23vujl/rmarkdown-str229d3c5ab749.html 
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-18.pdf
+[2025-05-18 21:30:59] - SUCCESS: Report generated (512)
+[2025-05-18 21:30:59] - Email sent to asritha@udel.edu
+[2025-05-18 21:30:59] - Report deleted after email.
+[2025-05-18 21:30:59] - Report Generation Completed
+[2025-05-18 21:46:22] - Starting report generation...
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/21                       
+2/21 [setup]               
+3/21                       
+4/21 [load-data]           
+5/21                       
+6/21 [check-invalid]       
+7/21                       
+8/21 [previous-flux]       
+9/21                       
+10/21 [multiple-rows]       
+11/21                       
+12/21 [categorize-gaps]     
+13/21                       
+14/21 [summary]             
+15/21                       
+16/21 [r2 analysis]         
+17/21                       
+18/21 [cv-analysis]         
+19/21                       
+20/21 [flux-quality-control]
+21/21                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-18.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/Rtmpg2fa3s/rmarkdown-str446d796a2f7d.html 
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-18.pdf
+[2025-05-18 21:46:28] - SUCCESS: Report generated (512)
+[2025-05-18 21:46:28] - Email sent to asritha@udel.edu
+[2025-05-18 21:46:28] - Report deleted after email.
+[2025-05-18 21:46:28] - Report Generation Completed
+[2025-05-18 21:53:28] - Starting report generation...
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/21                       
+2/21 [setup]               
+3/21                       
+4/21 [load-data]           
+5/21                       
+6/21 [check-invalid]       
+7/21                       
+8/21 [previous-flux]       
+9/21                       
+10/21 [multiple-rows]       
+11/21                       
+12/21 [categorize-gaps]     
+13/21                       
+14/21 [summary]             
+15/21                       
+16/21 [r2 analysis]         
+17/21                       
+18/21 [cv-analysis]         
+19/21                       
+20/21 [flux-quality-control]
+21/21                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-18.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmpuSnoEl/rmarkdown-str526565a99253.html 
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-18.pdf
+[2025-05-18 21:53:35] - SUCCESS: Report generated (17K)
+[2025-05-18 21:53:35] - Email sent to asritha@udel.edu
+[2025-05-18 21:53:35] - Report deleted after email.
+[2025-05-18 21:53:35] - Report Generation Completed
+[2025-05-18 21:58:22] - Starting report generation...
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/21                       
+2/21 [setup]               
+3/21                       
+4/21 [load-data]           
+5/21                       
+6/21 [check-invalid]       
+7/21                       
+8/21 [previous-flux]       
+9/21                       
+10/21 [multiple-rows]       
+11/21                       
+12/21 [categorize-gaps]     
+13/21                       
+14/21 [summary]             
+15/21                       
+16/21 [r2 analysis]         
+17/21                       
+18/21 [cv-analysis]         
+19/21                       
+20/21 [flux-quality-control]
+21/21                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-18.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/RtmpDF0j64/rmarkdown-str5c3f18f3824c.html 
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-18.pdf
+[2025-05-18 21:58:29] - SUCCESS: Report generated (17K)
+[2025-05-18 21:58:29] - Email sent to asritha@udel.edu
+[2025-05-18 21:58:29] - Report deleted after email.
+[2025-05-18 21:58:29] - Report Generation Completed
+[2025-05-18 22:13:24] - Starting report generation...
+
+
+processing file: GHG_SOIL_REPORT.Rmd
+1/21                       
+2/21 [setup]               
+3/21                       
+4/21 [load-data]           
+5/21                       
+6/21 [check-invalid]       
+7/21                       
+8/21 [previous-flux]       
+9/21                       
+10/21 [multiple-rows]       
+11/21                       
+12/21 [categorize-gaps]     
+13/21                       
+14/21 [summary]             
+15/21                       
+16/21 [r2 analysis]         
+17/21                       
+18/21 [cv-analysis]         
+19/21                       
+20/21 [flux-quality-control]
+21/21                       
+output file: GHG_SOIL_REPORT.knit.md
+
+/home/3735/software/pandoc-2.19.2/bin/pandoc +RTS -K512m -RTS GHG_SOIL_REPORT.knit.md --to latex --from markdown+autolink_bare_uris+tex_math_single_backslash --output /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-18.tex --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/3735/R/x86_64-pc-linux-gnu-library/4.1/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --table-of-contents --toc-depth 2 --number-sections --highlight-style tango --pdf-engine pdflatex --include-in-header preamble.tex --variable graphics --variable 'geometry:margin=1in' --include-in-header /tmp/Rtmp9scwpG/rmarkdown-str99753f10c1a0.html 
+Warning: LaTeX Warning: Label `tab:flux-quality-control' multiply defined.
+Warning: LaTeX Warning: There were multiply-defined labels.
+
+Output created: /lustre/darse/users/3735/ghgsoilproject/output/GHG_SOIL_REPORT_2025-05-18.pdf
+[2025-05-18 22:13:30] - SUCCESS: Report generated (512)
+[2025-05-18 22:13:30] - Email sent to asritha@udel.edu
+[2025-05-18 22:13:30] - Report deleted after email.
+[2025-05-18 22:13:30] - Report Generation Completed
